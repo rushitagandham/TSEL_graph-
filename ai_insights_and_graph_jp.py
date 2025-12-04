@@ -538,7 +538,7 @@ st.set_page_config(page_title="学習者レポートデモ", layout="wide")
 
 # Groq クライアント（AI インサイト用）
 # ※ APIキーは環境変数などで安全に管理してください
-GROQ_API_KEY = 
+GROQ_API_KEY = None
 if GROQ_API_KEY is None:
     st.warning("環境変数『GROQ_API_KEY』が設定されていないため、AIインサイト機能は利用できません。")
     groq_client = None
