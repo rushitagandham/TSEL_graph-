@@ -5,7 +5,7 @@ from textwrap import dedent
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
-import japanize_matplotlib
+
 import streamlit as st
 from groq import Groq
 
@@ -14,7 +14,7 @@ from groq import Groq
 # -------------------------------------------------------------
 
 # 日本語フォント（Windows）
-matplotlib.rcParams["font.family"] = "Noto Serif CJK JP"
+matplotlib.rcParams['font.family'] = 'Hiragino Sans'
 
 st.set_page_config(page_title="学習者レポートデモ", layout="wide")
 
