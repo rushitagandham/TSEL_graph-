@@ -5,6 +5,7 @@ from textwrap import dedent
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
+import japanese_matplotlib
 import streamlit as st
 from groq import Groq
 
