@@ -15,7 +15,7 @@ from groq import Groq
 
 # 日本語フォント（Windows）
 #matplotlib.rcParams['font.family'] = 'Hiragino Sans'
-font_path = "fonts/msgothic.ttc"
+font_path = "./fonts/msgothic.ttc"
 font_prop = fm.FontProperties(fname=font_path)
 
 plt.rcParams["font.family"] = font_prop.get_name()
