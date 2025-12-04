@@ -13,7 +13,7 @@ from groq import Groq
 # -------------------------------------------------------------
 
 # 日本語フォント（Windows）
-matplotlib.rcParams["font.family"] = "Noto Sans CJK JP"
+matplotlib.rcParams["font.family"] = "Noto Serif CJK JP"
 
 st.set_page_config(page_title="学習者レポートデモ", layout="wide")
 
