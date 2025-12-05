@@ -18,7 +18,7 @@ from groq import Groq
 #font_path = "./fonts/msgothic.ttc"
 #font_prop = fm.FontProperties(fname=font_path)
 
-matplotlib.rcParams["font.family"] = "MS Gothic"
+matplotlib.rcParams["font.family"] = "Hiragino Sans"
 #fm.fontManager.addfont(font_path)
 st.set_page_config(page_title="学習者レポートデモ", layout="wide")
 
