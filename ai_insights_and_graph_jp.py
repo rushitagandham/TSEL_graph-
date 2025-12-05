@@ -18,8 +18,8 @@ from groq import Groq
 font_path = "./fonts/msgothic.ttc"
 font_prop = fm.FontProperties(fname=font_path)
 
-plt.rcParams["font.family"] = font_prop.get_name()
-fm.fontManager.addfont(font_path)
+matplotlib.rcParams["font.family"] = "MS Gothic"
+#fm.fontManager.addfont(font_path)
 st.set_page_config(page_title="学習者レポートデモ", layout="wide")
 
 
@@ -27,7 +27,7 @@ st.set_page_config(page_title="学習者レポートデモ", layout="wide")
 
 # Groq クライアント（AI インサイト用）
 # ※ APIキーは環境変数などで安全に管理してください
-GROQ_API_KEY = None
+GROQ_API_KEY = "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"
 if GROQ_API_KEY is None:
     st.warning("環境変数『GROQ_API_KEY』が設定されていないため、AIインサイト機能は利用できません。")
     groq_client = None
